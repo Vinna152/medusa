@@ -1,8 +1,5 @@
 # Checks if the announcement bar info was last edited more than 6 days ago, and if so removes it
 name: Remove Docs Release Announcement Bar
-on:
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   remove-announcement:
